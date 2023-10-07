@@ -1,0 +1,8 @@
+input('Kindly enter the age of your dog:')
+dog=int 
+if dog <= 50:
+    print('Good dog')
+elif dog >= 50:
+    print('bad dog')
+else:
+    print('YOU ARE A DOG')

@@ -1,0 +1,17 @@
+#try Except Method
+#this code is to compute the pay of workers
+Box1 =input('Enter Hours per week:')
+Box2=input('Enter rate:$')
+try:
+   Goodpc =float(Box1)
+   Averagepc=float(Box2)
+except:
+      print('Error. Plase Enter a number or numeric input')
+
+if Goodpc > 5000:
+    rell=Averagepc*Goodpc
+    otp=(Goodpc-5000.0)*(Averagepc*0.5)
+    Samsungpc= rell + otp
+else:
+    samsungpc=Goodpc*Averagepc
+    print ('your pay is:$',samsungpc)
